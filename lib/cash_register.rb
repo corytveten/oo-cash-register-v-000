@@ -21,6 +21,7 @@ class CashRegister
       return "After discount, the total comes to $#{total}"
     else
       return "There is no discount to apply."
+    end
   end
 
   def void_last_transaction
